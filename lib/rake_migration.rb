@@ -409,7 +409,7 @@ module ActiveRecord
       end
 
       def schema_migrations_table_name
-        Base.table_name_prefix + 'schema_migrations' + Base.table_name_suffix
+        Base.table_name_prefix + 'rake_migrations' + Base.table_name_suffix
       end
 
       def get_all_versions
